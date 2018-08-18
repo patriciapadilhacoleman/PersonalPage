@@ -1,0 +1,9 @@
+function assertObjectsEqual(actual, expected, testName) {
+2│   actual = JSON.stringify(actual);
+3│   expected = JSON.stringify(expected);
+4│   if (actual === expected) {
+5│     console.log('passed');
+6│   } else {
+7│     console.log('FAILED [' + testName + '] Expected ' + expected + ', but got ' + actual);
+8│   }
+9│ }
