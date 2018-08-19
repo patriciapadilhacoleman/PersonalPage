@@ -11,6 +11,7 @@
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 
       <link rel="stylesheet" href="css/style.css">
+      <script src="js/script.js" type="text/javascript"></script>
 
   
 </head>
@@ -86,10 +87,10 @@
   
      <div id="project-tile" class="row align-items-center justify-content-center">
       <div class="col-md-3 col-sm-6 col-xs-12">
-        <a href= "https://codepen.io/patriciapcoleman/pen/yzLKeR" target="_blank""><div id="project1-tile"><span>Nelson Mandela</span></div></a>
+        <a href= "https://codepen.io/patriciapadilhacoleman/pens/forked/?sort_col=item_updated_at" target="_blank""><div id="project1-tile"><span>My CodePen</span></div></a>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-12">
-        <a href="https://github.com/patriciapadilhacoleman/fullstack/tree/module2_solution" target = "_blank ""><div id="project2-tile"><span> GitHub </span></div></a>
+        <a href="https://jobapplicationtracker.org" target = "_blank ""><div id="project2-tile"><span> Job Application Tracker </span></div></a>
       </div>
        <div class="col-md-3 col-sm-6 col-xs-12">
         <a href="https://www.viajandantes.com" target = "_blank ""><div id="project3-tile"><span>Travel Blog</span></div></a>
@@ -98,7 +99,7 @@
   </div>    
         
       
-        <div class="row">
+    <div class="row">
         
       <div id="contact">
        
@@ -113,16 +114,24 @@
               <fieldset>  
               <legend>Contact Details</legend> 
               <div>
-              <input class="form-control mr-lg-2" type="text" placeholder="Name">
-              <input class="form-control mr-lg-2" type="text" placeholder="E-mail">
+                 <input  class="form-control mr-lg-2"  id = "contactName" type="text" placeholder="Name">
+              
+                 <input class="form-control mrt-lg-2 mb-lg-2" id = "contactPhone" type="text" placeholder="Phone Number:">
+              
+                 <input type="email" class="form-control ml-lg-2 mb-lg-2" id="contactEmail" aria-describedby="emailHelp" placeholder="Enter email">
+
+                 <input class="form-control mr-lg-2" id = "contactAddress" type="text" placeholder="Address">
  
-    <textarea class="form-control mt-lg-2" id="contactMessage" rows="6" placeholder="Message"></textarea>
+                 <textarea class="form-control mr-lg-2" id="contactMessage" rows="6" placeholder="Message">
+      
+                 </textarea>
      
-                                                                         </div>                                                                       <button id="Sendbtn" class="btn btn-lg btn-primary btn-block" type="submit">Send</button>
-                                                                        </fieldset>                                                                   
+              </div>                                                                       
+    <button id="Sendbtn" class="btn btn-lg btn-primary btn-block" type="submit">Send</button>
+    </fieldset>                                                                   
     </form></div>
         
-      <div id="message" class="col-md-6">
+      <div id="message" class="col-md-6 mt-lg-2">
            <h4>Would you like to get in touch with me? Need to request more information about myself, my experience or to ask for my resume? Just feel free to drop me a line anytime.
              I promise to reply A.S.A.P.</h4>
            </div>

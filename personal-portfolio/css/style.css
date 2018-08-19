@@ -198,7 +198,7 @@ body {
 }
 
 #project1-tile{
-  background:url("https://i.imgur.com/xG4Pn3J.png?1") no-repeat;
+  background:url("https://i.imgur.com/3K8DQtcm.png?10") no-repeat;
   background-position: center;
 }
 
@@ -206,7 +206,7 @@ body {
 
 #project2-tile {
   
-  background:url("https://cdn.tutsplus.com/net/uploads/2013/08/github-collab-retina-preview.gif") no-repeat;
+  background:url("https://i.imgur.com/ItaTjHIm.png?1") no-repeat;
   background-position: center;
 
 }
@@ -244,6 +244,8 @@ body {
   
 }
 
+
+
 #contact-form{
   
   margin-top: 0;
@@ -252,7 +254,7 @@ body {
   
 }
 
-#contactMessage, #Sendbtn {
+#contactMessage, #Sendbtn, #contactName, #contactAddress {
   position: relative;
   width: 400px;
   margin-bottom: 10px;
